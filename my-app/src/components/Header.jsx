@@ -18,8 +18,8 @@ const Header = () => {
                     </Form>
                         <Nav.Link href="#categories" className="nav-link" style={{marginTop: 4}}>Categories</Nav.Link>
                         <Nav.Link href="#cart" className="nav-link"><i class="fas fa-shopping-cart"></i></Nav.Link>
-                        <Nav.Link href="#login" className="nav-link"><Button variant="outline-primary" className="btn login-btn">Login</Button></Nav.Link>
-                        <Nav.Link href="#signup" className="nav-link"><Button variant="primary" className="btn signup-btn">Sign Up</Button></Nav.Link>
+                        <Nav.Link href="#login" className="nav-link"><Button className="btn login-btn">Login</Button></Nav.Link>
+                        <Nav.Link href="#signup" className="nav-link"><Button className="btn signup-btn">Sign Up</Button></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </div>
